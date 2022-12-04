@@ -1,5 +1,4 @@
 
-# this is used to make GUI.
 
 from tkinter import*
 from PIL import ImageTk,Image # this is used to take image
@@ -10,7 +9,7 @@ def handle_login():
     email = email_input.get()
     password = password_input.get()
     print(email,password)
-    if email == "askushwaha613@gmail.com" and password == 'Ashok@2002':
+    if email == "askushwaha@gmail.com" and password == 'Ashok@2002':
         messagebox.showinfo("Welcome in SHRI RAM GROUP")
     else:
         messagebox.showerror("Sorry!, Login Failed")
